@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-awesome-app"
+version = "0.1.0"
+description = "A modern Python project managed with pyproject.toml"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Jane Doe", email = "jane.doe@example.com" }
+]
+
+
+dependencies = [
+    "datasets",
+    "ipython",
+    "laya",
+    "transformers>=4.48.0", 
+    "safetensors", 
+    "huggingface_hub", 
+    "pyarrow", 
+    "pandas",
+    "scipy",
+    "accelerate",
+    "tabulate"
+]
